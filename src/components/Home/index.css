@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.homeContainer {
+  display: flex;
+  justify-content: center;
+}
+.image1 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .image2 {
+    display: none;
+  }
+  .image1 {
+    display: block;
+  }
+}

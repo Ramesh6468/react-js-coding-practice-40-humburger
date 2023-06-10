@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+}
+.icon {
+  max-height: 100px;
+}
+.popupContainer {
+  display: flex;
+  flex-direction: column;
+}
+.button1 {
+  text-align: right;
+}
+.HomeCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeIcon {
+    font-size: 50px;
+}
+.aboutIcon {
+    font-size: 50px;
+}
+.closeIcon {
+align-self: flex-end;   
+}
